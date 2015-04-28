@@ -1,0 +1,26 @@
+{
+  "name": "how-many-pizza",
+  "version": "1.0.0",
+  "description": "Calculate how many pizza you need for your event/party based on the number of people",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ialex/how-many-pizza"
+  },
+  "keywords": [
+    "pizza",
+    "how",
+    "many",
+    "events",
+    "calculate"
+  ],
+  "author": "Alejandro Villanueva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ialex/how-many-pizza/issues"
+  },
+  "homepage": "https://github.com/ialex/how-many-pizza"
+}
