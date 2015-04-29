@@ -13,11 +13,18 @@ npm install how-many-pizza
 ```
 
 ## USAGE
+**`howManyPizza([People], [Slices per person(Optional)], [Pizza slices(Optional)])`**
 
 ```
+// Load library
 var howManyPizza = require('how-many-pizza');
 
+// Calculate pizzas for 50 people
 console.log(howManyPizza(50)); // => 19
+
+// Calculate pizzas for 50 people
+// 4 slices per person and pizzas of 12 slices
+console.log(howManyPizza(50, 4, 12)); // => 17
 
 ```
 
