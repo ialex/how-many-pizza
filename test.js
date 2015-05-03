@@ -21,4 +21,6 @@ assert.strictEqual(howManyPizza(50, 3, 8), 19);
 assert.strictEqual(howManyPizza(1.5, 3, 8), 1);
 assert.strictEqual(howManyPizza(5.5, 3, 8), 2);
 
+assert.strictEqual(howManyPizza(50, 4, 12), 17);
+
 console.log("Tests completed!");
