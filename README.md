@@ -1,4 +1,4 @@
-# How Many Pizza?
+# How Many Pizza? [![Build Status](https://travis-ci.org/ialex/how-many-pizza.svg?branch=master)](https://travis-ci.org/ialex/how-many-pizza)
 
 This module helps you to calculate how many Pizza you need based on number of people
 you want to feed.
