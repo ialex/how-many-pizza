@@ -13,7 +13,7 @@ npm install how-many-pizza
 ```
 
 ## USAGE
-**`howManyPizza([People], [Slices per person(Optional)], [Pizza slices(Optional)])`**
+**`howManyPizza(people, [slicesXperson], [#slicesXpizza])`**
 
 ```
 // Load library
