@@ -4,7 +4,7 @@ This module helps you to calculate how many Pizza you need based on number of pe
 you want to feed.
 
 ## For Science behind read
-[http://gawker.com/how-many-pizzas-should-you-order-the-pizza-equation-wi-1697815579/+whitsongordon](http://gawker.com/how-many-pizzas-should-you-order-the-pizza-equation-wi-1697815579/+whitsongordon)
+[http://gawker.com/how-many-pizzas-should-you-order-the-pizza-equation-wi-1697815579](http://gawker.com/how-many-pizzas-should-you-order-the-pizza-equation-wi-1697815579)
 
 ## Install
 
