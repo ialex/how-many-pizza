@@ -1,19 +1,9 @@
 'use strict';
 
-function isNan(value) {
-  //  Turns out nodejs does not have isNan() out of the box
-  return (typeof value !== 'number' || value !== value);
-};
+module.exports = function howManyPizza(people, slicesPerPerson = 3, slicesPerPizza = 8) {
+  var peopleToPizzaRatio = slicesPerPerson/slicesPerPizza;
 
-function valOrDefault(value, defaultVal) {
-  return isNan(value) ? defaultVal : Math.ceil(value);
-};
+  if (!people || isNaN(people)) { return 0 }
 
-module.exports = function howManyPizza(people, slicesPerPerson, slicesPerPizza) {
-  var peopleToPizzaRatio = valOrDefault(slicesPerPerson, 3)/valOrDefault(slicesPerPizza, 8);
-  if (!people || people === 0 || isNan(people)) {
-    return 0;
-  } else {
-    return Math.ceil(Math.ceil(people) * peopleToPizzaRatio);
-  }
+  return Math.ceil(Math.ceil(people) * peopleToPizzaRatio);
 };
